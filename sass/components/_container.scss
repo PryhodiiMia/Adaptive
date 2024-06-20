@@ -1,0 +1,13 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    @include tab(767px) {
+        width: 470px;
+    }
+
+    @include tab(1199px) {
+        width: 914px;
+    }
+}

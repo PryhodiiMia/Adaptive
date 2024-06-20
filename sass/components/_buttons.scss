@@ -1,0 +1,16 @@
+.hero-btn {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 18px;
+    padding: 13px 38px;
+    background-color: #FF4E50;
+    max-width: 282px;
+    margin: 0 auto;
+    display: block;
+    @include tab(767px) {
+        padding: 13px 15px;
+    }
+}

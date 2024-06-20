@@ -1,0 +1,65 @@
+.header{
+    padding-top: 19px;
+
+    @include tab(767px) {
+        padding-top: 36px;
+    }
+
+    &__container {
+        flex-direction: column-reverse;
+        gap: 112px;
+        max-width: 940px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include tab (767px) {
+            flex-direction: row;
+            gap: 310px;
+            justify-content: center;
+        }
+
+        @include desc (1199px) {
+            gap: 580px;
+        }
+    }
+        &__logo {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22px;
+            text-align: center;
+            color: #fff;
+        }
+
+        &__item {
+            display: flex;
+            align-items: center;
+        }
+
+        &__list {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            gap: 10px;
+        }
+
+        &__link {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #fff;
+            border: 2px solid #fff;
+            border-radius: 18px;
+            padding: 5px 11px;
+            white-space: nowrap;
+        }
+        
+        &__link2 {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #fff;
+            white-space: nowrap;
+        }
+    }
