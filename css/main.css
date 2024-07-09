@@ -54,12 +54,12 @@ body {
 }
 @media screen and (min-width: 767px) {
   .container {
-    width: 470px;
+    width: 508px;
   }
 }
 @media screen and (min-width: 1199px) {
   .container {
-    width: 914px;
+    width: 930px;
   }
 }
 
@@ -177,7 +177,7 @@ body {
   .hero__title {
     font-size: 52px;
     line-height: 63px;
-    width: 507px;
+    max-width: 517px;
   }
 }
 .hero__text {
@@ -190,6 +190,7 @@ body {
   padding-top: 12px;
   padding-bottom: 33px;
   max-width: 247px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 767px) {
   .hero__text {
@@ -224,6 +225,11 @@ body {
           justify-content: center;
   gap: 53px;
 }
+@media screen and (min-width: 1199px) {
+  .partner-list {
+    gap: 37px;
+  }
+}
 
 .partner-list-text {
   font-family: "Roboto", sans-serif;
@@ -234,6 +240,11 @@ body {
   color: #666666;
   max-width: 224px;
   margin: 0 auto;
+}
+@media screen and (min-width: 767px) {
+  .partner-list-text {
+    max-width: 194px;
+  }
 }
 
 .partner-list-title {

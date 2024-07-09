@@ -4,10 +4,10 @@
     margin: 0 auto;
 
     @include tab(767px) {
-        width: 470px;
+        width: 508px;
     }
 
     @include tab(1199px) {
-        width: 914px;
+        width: 930px;
     }
 }

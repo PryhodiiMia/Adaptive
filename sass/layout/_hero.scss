@@ -28,7 +28,7 @@
         @include tab(767px) {
             font-size: 52px;
             line-height: 63px;
-            width: 507px;
+            max-width: 517px;
         }
     }
 
@@ -42,6 +42,7 @@
         padding-top: 12px;
         padding-bottom: 33px;
         max-width: 247px;
+        margin: 0 auto;
 
         @include tab(767px) {
             padding-top: 36px;

@@ -16,6 +16,9 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 53px;
+    @include desc (1199px) {
+        gap: 37px;
+    }
 }
 
 .partner-list-text {
@@ -27,6 +30,9 @@
     color: #666666;
     max-width: 224px;
     margin: 0 auto;
+    @include tab(767px) {
+        max-width: 194px;
+    }
 }
 
 .partner-list-title {
