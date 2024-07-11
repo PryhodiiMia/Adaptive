@@ -148,7 +148,7 @@ body {
 }
 
 .background-container {
-  background-image: url("/images/desk-header 1.png");
+  background-image: url("../images/desk-header1.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
