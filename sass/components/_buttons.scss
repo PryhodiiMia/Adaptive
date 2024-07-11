@@ -13,4 +13,11 @@
     @include tab(767px) {
         padding: 13px 15px;
     }
+    @include desc(1199px) {
+        padding: 13px 28px;
+    }
+    }
+
+    .hero-btn:hover{
+        background-color: #d94346;
     }

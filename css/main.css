@@ -46,6 +46,15 @@ body {
     padding: 13px 15px;
   }
 }
+@media screen and (min-width: 1199px) {
+  .hero-btn {
+    padding: 13px 28px;
+  }
+}
+
+.hero-btn:hover {
+  background-color: #d94346;
+}
 
 .container {
   padding-left: 15px;
