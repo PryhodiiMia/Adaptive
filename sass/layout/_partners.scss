@@ -9,6 +9,7 @@
     line-height: 27px;
     text-align: center;
     color: #333333;
+    animation: pulseColorChange 3s infinite;
 }
 
 .partner-list {
@@ -66,3 +67,26 @@
     height: 40px;
     width: 280px;
 }
+
+@keyframes pulseColorChange {
+    0% {
+      transform: scale(1);
+      color: #333333; 
+    }
+    25% {
+      transform: scale(1.1);
+      color: #FF4E50; /* Зелёный */
+    }
+    50% {
+      transform: scale(1);
+      color: #d94346; /* Синий */
+    }
+    75% {
+      transform: scale(0.9);
+      color: #FF4E50; /* Пурпурный */
+    }
+    100% {
+      transform: scale(1);
+      color: #333333;
+    }
+  }

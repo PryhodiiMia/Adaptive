@@ -50,5 +50,24 @@
             line-height: 28px;
             max-width: 428px;
         }
+        animation: changeBgColor 2s infinite;
+        text-shadow: 2px 4px 5px black;
+        
     }
 }
+@keyframes changeBgColor {
+    0% {
+    color: white ;
+    transform: scale(1);
+    }
+    
+    50% {
+    color: #f78f91;
+    transform: scaleX(1.2);
+    }
+    
+    100% {
+    color: white;
+    transform: scale(1);
+    }
+    }
